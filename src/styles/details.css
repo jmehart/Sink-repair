@@ -1,0 +1,36 @@
+#container {
+    padding: .5rem;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.input {
+    display: flex;
+    flex-basis: 75%;
+}
+
+.button {
+    margin: 1rem 0 1rem 1rem;
+    padding: 0.5rem;
+    background-color: rgb(88, 91, 186);
+    color: lightgoldenrodyellow;
+    font-size: 1rem;
+}
+
+.request__delete {
+    margin: 1rem 0 1rem 1rem;
+    background-color: rgb(170, 88, 186);
+    color: lightgoldenrodyellow;
+    font-size: 1rem;
+}
