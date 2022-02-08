@@ -5,8 +5,9 @@
 div {
     display: flex;
     flex-direction: column;
-
 }
+
+
 
 .field {
     display: flex;
@@ -15,10 +16,6 @@ div {
     margin: 1rem;
 }
 
-.input {
-    display: flex;
-    flex-basis: 75%;
-}
 
 .button {
     margin: 1rem 0 1rem 1rem;
@@ -28,9 +25,58 @@ div {
     font-size: 1rem;
 }
 
+.input {
+    width: 100%;
+    max-width: 40rem;
+}
+
 .request__delete {
-    margin: 1rem 0 1rem 1rem;
     background-color: rgb(170, 88, 186);
     color: lightgoldenrodyellow;
     font-size: 1rem;
+    margin: 0 1rem 0 5rem;
+    display: flex;
+    align-self: center;
+}
+
+ul {
+    max-width: 40.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-left: -1.5rem;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li:nth-child(1) {
+    background: lavender;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+}
+
+li:nth-child(2) {
+    background:rgba(132, 192, 255, 0.529);
+    padding: 1rem;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+}
+
+li:nth-child(3) {
+    background: lavender;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+}
+
+li:nth-child(4) {
+    background:rgba(132, 192, 255, 0.529);
+    padding: 1rem;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
 }

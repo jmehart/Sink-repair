@@ -11,7 +11,9 @@ const convertRequestToListElement = (request) => {
             //The function should return the HTML representation.
             return `
             <li>
+                <div class="request">
                 ${request.description}
+                </div>
                 <button class="request__delete"
                         id="request--${request.id}">
                     Delete
